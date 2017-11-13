@@ -1,3 +1,5 @@
+package com.easypost.app;
+
 // java -cp "target/easypost-java-2.0.2.jar:target/gson-2.2.2.jar" SmartPostExample
 
 import java.util.HashMap;

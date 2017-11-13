@@ -18,8 +18,9 @@ public class User extends EasyPostResource {
     String secondaryRechargeAmount;
     String rechargeThreshold;
     List<User> children;
+    List<ApiKey> api_keys;
 
-    public String getId() { return id; }
+	public String getId() { return id; }
     public void setId(String id) { this.id = id; }
 
     public String getName() { return name; }
@@ -51,6 +52,9 @@ public class User extends EasyPostResource {
 
     public List<User> getChildren() { return children; }
     public void setChildren(List<User> children) { this.children = children; }
+    
+    public List<ApiKey> getApi_keys() { return api_keys; }
+	public void setApi_keys(List<ApiKey> api_keys) { this.api_keys = api_keys; 	}
 
     // retrieve
     public static User retrieve(String id) throws EasyPostException {
