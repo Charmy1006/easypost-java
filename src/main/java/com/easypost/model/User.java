@@ -55,6 +55,12 @@ public class User extends EasyPostResource {
     
     public List<ApiKey> getApi_keys() { return api_keys; }
 	public void setApi_keys(List<ApiKey> api_keys) { this.api_keys = api_keys; 	}
+	
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", name=" + name + ", email=" + email + ", phoneNumber=" + phoneNumber + ", balance="
+				+ balance + ", api_keys=" + api_keys + "]";
+	}
 
     // retrieve
     public static User retrieve(String id) throws EasyPostException {
