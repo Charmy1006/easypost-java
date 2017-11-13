@@ -28,7 +28,7 @@ public class Webhook {
             EasyPostResource tracker = event.getResult();
 
             System.out.println(event.getDescription());
-            System.out.println(tracker.getStatus());
+          //  System.out.println(tracker.getStatus());
             System.out.println(tracker.prettyPrint());
 
         } catch (EasyPostException e) {

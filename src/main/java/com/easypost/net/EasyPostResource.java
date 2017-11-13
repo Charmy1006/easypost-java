@@ -537,7 +537,7 @@ public abstract class EasyPostResource {
 		}
 	}
 
-	public String getId() {
+	/*public String getId() {
 		return "";
 	}
 	public String getMode() {
@@ -559,12 +559,12 @@ public abstract class EasyPostResource {
 	}
 	public String getTrackingCode() {
 		return "";
-	}
-	public String getStatus() {
+	}*/
+	/*public String getStatus() {
 		return "";
-	}
-	public List<TrackingDetail> getTrackingDetails() {
+	}*/
+	/*public List<TrackingDetail> getTrackingDetails() {
 		return new ArrayList<TrackingDetail>();
-	}
+	}*/
 
 }
