@@ -27,7 +27,7 @@ import static org.hamcrest.CoreMatchers.*;
 
 public class EasyPostTest {
 
-  static Map<String, Object> defaultFromAddress = new HashMap<String, Object>();
+  /*static Map<String, Object> defaultFromAddress = new HashMap<String, Object>();
   static Map<String, Object> defaultToAddress = new HashMap<String, Object>();
   static Map<String, Object> defaultParcel = new HashMap<String, Object>();
   static Map<String, Object> defaultCustomsItem = new HashMap<String, Object>();
@@ -847,7 +847,7 @@ public class EasyPostTest {
     assertEquals("IDs do not match", scanForms.getScanForms().get(0).getId(), scanForm.getId());
   }
 
-  /*
+  
   // This test requires a FedEx account
   @Test
   public void testShipmentWithForm() throws EasyPostException {
@@ -869,7 +869,7 @@ public class EasyPostTest {
 
     assertNotNull(shipment.getForms().get(0).getFormUrl());
   }
-  */
+  
 
 //  //  This test requires a production api key
 //  @Test
@@ -1013,4 +1013,4 @@ public class EasyPostTest {
 //    int finalNumCarrierAccounts = deletedCarrierAccounts.size();
 //    assertEquals(originalNumCarrierAccounts, finalNumCarrierAccounts);
 //  }
-}
+*/}
