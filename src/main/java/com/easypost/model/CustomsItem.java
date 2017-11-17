@@ -1,6 +1,5 @@
 package com.easypost.model;
 
-import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,7 +14,9 @@ public class CustomsItem extends EasyPostResource {
 	int quantity;
 	Float value;
 	Float weight;
-
+	String currency;
+	String code; 
+	
 	public String getId() {
 		return id;
 	}
@@ -63,6 +64,19 @@ public class CustomsItem extends EasyPostResource {
 	}
 	public void setWeight(Float weight) {
 		this.weight = weight;
+	}
+
+	public String getCurrency() {
+		return currency;
+	}
+	public void setCurrency(String currency) {
+		this.currency = currency;
+	}
+	public String getCode() {
+		return code;
+	}
+	public void setCode(String code) {
+		this.code = code;
 	}
 
 
