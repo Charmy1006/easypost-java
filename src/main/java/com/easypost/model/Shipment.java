@@ -34,6 +34,7 @@ public class Shipment extends EasyPostResource {
 	String batchStatus;
 	String batchMessage;
 	String uspsZone;
+	List<Fees> fees;
 	Map<String, Object> options;
 	List<ShipmentMessage> messages;
 
@@ -217,6 +218,12 @@ public class Shipment extends EasyPostResource {
 	}
 	public void setForms(List<Form> forms) {
 		this.forms = forms;
+	}
+	public List<Fees> getFees() {
+		return fees;
+	}
+	public void setFees(List<Fees> fees) {
+		this.fees = fees;
 	}
 
 

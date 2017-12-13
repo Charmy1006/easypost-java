@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.easypost.EasyPost;
+import com.easypost.model.CarrierAccount;
+import com.easypost.model.CarrierDetail;
 import com.easypost.model.User;
 
 public class EasyPostUserRegister {
@@ -13,10 +15,10 @@ public class EasyPostUserRegister {
 		try{
 			EasyPost.apiKey = "KUkJhaAWGRZhirUIB5HHuQ";
 			Map<String, Object> userMap = new HashMap();
-			userMap.put("name", "Rucha Trivedi");
+			userMap.put("name", "Kruti Rawal");
 			User easypostUser = User.create(userMap);
 			System.out.println("User: " + easypostUser.toString());
-		}catch(Exception e){
+			}catch(Exception e){
 			throw e;
 		}
 		

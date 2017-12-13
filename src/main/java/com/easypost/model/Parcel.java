@@ -22,6 +22,11 @@ public class Parcel extends EasyPostResource {
 		this.id = id;
 	}
 
+	@Override
+	public String toString() {
+		return "Parcel [id=" + id + ", predefinedPackage=" + predefinedPackage + ", weight=" + weight + ", length="
+				+ length + ", width=" + width + ", height=" + height + "]";
+	}
 	public String getPredefinedPackage() {
 		return predefinedPackage;
 	}
